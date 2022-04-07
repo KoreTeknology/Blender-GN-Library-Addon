@@ -45,10 +45,6 @@ A simple script addon to access your personal Geometry nodes presets, from the A
 - [ ] Append/link options
 - [ ] more libraries?
 
-## Acknowledgments
-
-> *If you are using the node-presets.py addon, you may have find out that it includes all types of nodes in only one category. The asset manager is a cool option too, but as it doesnt require an image preview, why not getting our favorite geometry node presets directly from the editor! ;)*
-
 ---
 
 ## History
