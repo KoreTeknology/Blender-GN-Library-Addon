@@ -206,89 +206,68 @@ class GnNodeLibraryPrefs(AddonPreferences):
     
     # SHOW sliding menu 1
     show_menu_list : BoolProperty(
-        name="Directories of User Geometry Nodes Groups",
+        name="Need more ?",
         description="Show/Hide the Add Menu items",
-        default=True
+        default=False
     )
     
     # SHOW sliding menu 2
     show_menu_list_projectpath : BoolProperty(
         name="Directories of Project Nodes Groups",
         description="Show/Hide the Add Menu items",
-        default=True
+        default=False
     )
 
     def draw(self, context):
         layout = self.layout
         
-        # BLOC user paths
-        icon_1 = "TRIA_RIGHT" if not self.show_menu_list else "TRIA_DOWN"
-        box = layout.box()
-        box.prop(self, "show_menu_list", emboss=False, icon=icon_1)
         
-        if self.show_menu_list:           
-            #col = box.column(align=True)
-            #col.label(text="Category 1")
-            #col.prop(self, "userlib_cat1_path")
-            #col = box.column(align=True)
-            #col.enabled = False
-            #col.prop(self, "categoryname", text="Category 1 Name")
-            #col.separator()
-            #col = box.column(align=True)
-            #col.label(text="Category 2")
-            #col.prop(self, "userlib_cat2_path")
-            #col = box.column(align=True)
-            #col.enabled = False
-            #col.prop(self, "categoryname2", text="Category 2 Name")
-            #col.separator()
-            #col = box.column(align=True)
-            #col.label(text="Category 3")
-            #col.prop(self, "userlib_cat3_path")
-            #col = box.column(align=True)
-            #col.enabled = False
-            #col.prop(self, "categoryname3", text="Category 3 Name")
-            
-            #box = layout.box()
-            split = box.split(factor=0.35)
-            name_col = split.column()
-            path_col = split.column()
+        box = layout.box()
+        box.label(text="Directories of User Geometry Nodes Groups")
+        
+        col = layout.column(align=True)
+        split = col.split(factor=0.35)
+        name_col = split.column()
+        path_col = split.column()
+        
+        row = name_col.row(align=True)  # Padding
+        row.label(text="Category Name")
+        row = path_col.row(align=True)  # Padding
+        row.label(text="Path")
+        
+        row = name_col.row(align=True)
+        row.enabled = False
+        row.prop(self, "categoryname", text="")
+        row = path_col.row(align=True)
+        row.prop(self, "userlib_cat1_path", text="")
 
-            row = name_col.row(align=True)  # Padding
-            row.label(text="Category Name")
-            row = path_col.row(align=True)  # Padding
-            row.label(text="Path")
             
-            row = name_col.row(align=True)
-            row.enabled = False
-            row.prop(self, "categoryname", text="")
-            row = path_col.row(align=True)
-            row.prop(self, "userlib_cat1_path", text="")
-            #row.separator()
-            #subrow = row.row()
-            #subrow.label(text="", icon="X")
+        row = name_col.row(align=True)
+        row.enabled = False
+        row.prop(self, "categoryname2", text="")
+        row = path_col.row(align=True)
+        row.prop(self, "userlib_cat2_path", text="")
+
             
-            row = name_col.row(align=True)
-            row.enabled = False
-            row.prop(self, "categoryname2", text="")
-            row = path_col.row(align=True)
-            row.prop(self, "userlib_cat2_path", text="")
-            #row.separator()
-            #subrow = row.row()
-            #subrow.label(text="", icon="X")
+        row = name_col.row(align=True)
+        row.enabled = False
+        row.prop(self, "categoryname3", text="")
+        row = path_col.row(align=True)
+        row.prop(self, "userlib_cat3_path", text="")
+                
+        row = layout.row()
+        row.label(text="INFO: The name cannot be changed at this time, not implemented yet (v1.3.2)",icon="INFO")
+
+        
+        # BLOC user paths
+        #icon_1 = "TRIA_RIGHT" if not self.show_menu_list else "TRIA_DOWN"
+        #box = layout.box()
+        #box.prop(self, "show_menu_list", emboss=False, icon=icon_1)
+        
+        #if self.show_menu_list:           
+            #col = box.column(align=True)
+            #col.label(text="Text")
             
-            row = name_col.row(align=True)
-            row.enabled = False
-            row.prop(self, "categoryname3", text="")
-            row = path_col.row(align=True)
-            row.prop(self, "userlib_cat3_path", text="")
-            #row.separator()
-            #subrow = row.row()
-            #subrow.label(text="", icon="X")
-            
-            row = box.row()
-            row.enabled = False
-            row.alignment = 'RIGHT'
-            row.operator("preferences.asset_library_add", text="", icon='ADD', emboss=False)
 
         
         # BLOC project path
@@ -299,55 +278,9 @@ class GnNodeLibraryPrefs(AddonPreferences):
         if self.show_menu_list_projectpath:
             row = box.row(align=True)
             row.prop(self, "userlib_pro1_path")
-        
-        
-        # test
-        #paths = context.preferences.filepaths
-
-        #box = layout.box()
-        #split = box.split(factor=0.35)
-        #name_col = split.column()
-        #path_col = split.column()
-
-        #row = name_col.row(align=True)  # Padding
-        #row.label(text="Name")
-        #row = path_col.row(align=True)  # Padding
-        #row.label(text="Path")
-        
-        #row = name_col.row(align=True)
-        #row.enabled = False
-        #row.prop(self, "categoryname", text="")
-        #row = path_col.row(align=True)
-        #row.prop(self, "userlib_cat1_path", text="")
-        #row.separator()
-        #subrow = row.row()
-        #subrow.label(text="", icon="X")
-        
-        #row = name_col.row(align=True)
-        #row.enabled = False
-        #row.prop(self, "categoryname2", text="")
-        #row = path_col.row(align=True)
-        #row.prop(self, "userlib_cat2_path", text="")
-        #row.separator()
-        #subrow = row.row()
-        #subrow.label(text="", icon="X")
-        
-        #row = name_col.row(align=True)
-        #row.enabled = False
-        #row.prop(self, "categoryname3", text="")
-        #row = path_col.row(align=True)
-        #row.prop(self, "userlib_cat3_path", text="")
-        #row.separator()
-        #subrow = row.row()
-        #subrow.label(text="", icon="X")
-        
-        
-        
-        
-        
-        
-        
-        
+            row.separator()
+            subrow = row.row()
+            subrow.label(text="", icon="APPEND_BLEND")
 
         #for i, library in enumerate(paths.asset_libraries):
             #row = name_col.row()
@@ -361,13 +294,18 @@ class GnNodeLibraryPrefs(AddonPreferences):
 
             #row.operator("preferences.asset_library_remove", text="", icon='X', emboss=False).index = i
 
-        row = box.row()
-        row.enabled = False
-        row.alignment = 'RIGHT'
-        row.operator("preferences.asset_library_add", text="", icon='ADD', emboss=False)
+            row = box.row()
+            row.enabled = False
+            row.alignment = 'RIGHT'
+            row.operator("preferences.asset_library_add", text="", icon='ADD', emboss=False)
+        
+        #row = box.row()
+        #row.label(text="INFO",icon="INFO")
+        #row = box.row()
+        #row.label(text="Important! Paths are absolute! ",icon="LAYER_USED")
 
 
-        # BLOC info
+        #BLOC info
         #col = layout.column(align=True)
         #colbox = col.box()
         #colboxrow = colbox.row(align=True)
