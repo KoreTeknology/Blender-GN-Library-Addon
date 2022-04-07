@@ -1,9 +1,7 @@
 # Blender-GN-Library-Addon
-A simple script addon to access you personal Geometry nodes from the editor
+A simple script addon to access your personal Geometry nodes presets, from the Add menu.
 
 <img src="https://img.shields.io/badge/Blender-3.1.0-green" /> <img src="https://img.shields.io/badge/Python-3.7-blue" />
-
-> This page is in progress, please, come back soon !
 
 ```python
 bl_info = {
@@ -19,10 +17,14 @@ bl_info = {
 }
 ```
 
+<img src="https://github.com/KoreTeknology/Blender-GN-Library-Addon/blob/main/media/gnlib_preview_1.jpg" width=100%>
+
 ## Features
 - [x] Custom user menus in Geometry Nodes Editor context window
-- [x] Add up to 3 user categories 
-- [x] Add 1 project category
+- [x] Read .blend files from folder path
+- [x] Extract exclusively nodegroups from Geometry nodesgroups type
+- [x] Up to 3 user categories can be set with indexed sub-menu 
+- [x] A single project category is added for convenience
 - [x] Add Path setting in preferences
 - [ ] Add Name setting in preferences (in progress)
 
@@ -40,7 +42,7 @@ bl_info = {
 
 > **Release 0.1** "First Release" - [Date: 015/03/2022]: Development and analyse "node_presets.py
 
-
+---
 
 ## Infos
 
