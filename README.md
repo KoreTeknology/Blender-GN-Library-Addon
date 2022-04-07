@@ -1,5 +1,5 @@
 # Geometry Nodes User Library Addon for Blender
-A simple script addon to access your personal Geometry nodes presets, from the Add menu, with categories and project paths.
+A simple script addon for Blender 3.1+ to access your **personal Geometry nodes presets**, from the Add menu. It includes **several library paths and categories settings** in the addon preferences panel. **"Quick access to your geometry nodegroups using the shortcut MAJ+A"**, located on top of your geometry node editor area.
 
 ## Acknowledgments
 
