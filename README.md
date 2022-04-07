@@ -1,6 +1,10 @@
 # Geometry Nodes User Library Addon for Blender
 A simple script addon to access your personal Geometry nodes presets, from the Add menu, with categories and project paths.
 
+## Acknowledgments
+
+> *If you are using the node-presets.py addon, you may have find out that it includes all types of nodes in only one category. The asset manager is a cool option too, but as it doesnt require an image preview, why not getting our favorite geometry node presets directly from the editor! ;)*
+
 <img src="https://img.shields.io/badge/Blender-3.1.0-green" /> <img src="https://img.shields.io/badge/Python-3.7-blue" /> <img src="https://img.shields.io/badge/Addon-1.3.2-orange" />
 
 <img src="https://github.com/KoreTeknology/Blender-GN-Library-Addon/blob/main/media/gnlib_preview_web_131.jpg" width=100%>
@@ -34,6 +38,7 @@ A simple script addon to access your personal Geometry nodes presets, from the A
 ## What´s Next?
 - [ ] Add Name setting in preferences (in progress)
 - [ ] Select icon for each category in preferences
+- [ ] Append/link options
 - [ ] more libraries?
 
 ## Acknowledgments
