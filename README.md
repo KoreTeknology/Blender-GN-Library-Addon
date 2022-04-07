@@ -49,7 +49,7 @@ A simple script addon to access your personal Geometry nodes presets, from the A
 
 ## History
 
-> **Release 1.3.2** - [08/04/2022]: Re-Draw Addon preferences
+> **Release 1.3.2** - [08/04/2022]: Re-Draw Addon preferences, add sample files
 
 > **Release 1.3.1** - [07/04/2022]: Re-Define Project library + user libraries
 
