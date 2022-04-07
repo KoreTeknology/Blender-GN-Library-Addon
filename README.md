@@ -1,5 +1,9 @@
 # Geometry Nodes User Library Addon for Blender
-A simple script addon to access your personal Geometry nodes presets, from the Add menu.
+A simple script addon to access your personal Geometry nodes presets, from the Add menu, with categories and project paths.
+
+## Acknowledgments
+
+> *If you are using the node-presets.py addon, you may have find out that it includes all types of nodes in only one category. The asset manager is a cool option too, but as it doesnt require an image preview or any tags, why not getting our favorite geometry node presets directly from the Geometry nodes editor itself?! ;)*
 
 <img src="https://img.shields.io/badge/Blender-3.1.0-green" /> <img src="https://img.shields.io/badge/Python-3.7-blue" /> <img src="https://img.shields.io/badge/Addon-1.3.2-orange" />
 
@@ -7,13 +11,20 @@ A simple script addon to access your personal Geometry nodes presets, from the A
 
 ## Installation
 
-1. Download the [Geometry Nodes User Library Addon](https://github.com/KoreTeknology/Blender-GN-Library-Addon/blob/main/GN_Library_Addon_v131.py)
+1. Download the [Geometry Nodes User Library Addon](https://github.com/KoreTeknology/Blender-GN-Library-Addon/blob/main/GN_Library_Addon_v132.py)
 2. If you decide to download the full repository (.zip), unzip the Addon folder first!
 3. Go to Blender, Preferences > Addons
-4. Click on "Install" to select the python file "GN_Library_Addon_xxx.py"
-5. Activate the addon
-6. Select the first path to library in the preferences panel
+4. Click on "Install" to select the python file "GN_Library_Addon_xxx.py" (xxx is the version number)
+5. When it is done, you can activate the addon!
+6. Set your first "path to library folder" in the addon-preferences panel
 7. Go to the Geometry Nodes Editor, and open the Add Menu, enjoy!
+
+## Updates Instructions
+
+```diff
+- This addon doesn´t include an integrated update system :(
++ If you want to update this addon, uninstall the previous version first! 
+```
 
 ## Features
 - [x] Custom user menus **ONLY in Geometry Nodes Editor** context window
@@ -22,10 +33,12 @@ A simple script addon to access your personal Geometry nodes presets, from the A
 - [x] Up to **3 user categories** can be set with indexed sub-menu 
 - [x] A single **project category** is added for convenience
 - [x] **Paths settings** in addon-preferences
+- [x] User library **structure and contents samples**
 
 ## What´s Next?
 - [ ] Add Name setting in preferences (in progress)
 - [ ] Select icon for each category in preferences
+- [ ] Append/link options
 - [ ] more libraries?
 
 ## Acknowledgments
@@ -36,7 +49,7 @@ A simple script addon to access your personal Geometry nodes presets, from the A
 
 ## History
 
-> **Release 1.3.2** - [08/04/2022]: Re-Draw Addon preferences
+> **Release 1.3.2** - [08/04/2022]: Re-Draw Addon preferences, add sample files
 
 > **Release 1.3.1** - [07/04/2022]: Re-Define Project library + user libraries
 
@@ -52,6 +65,9 @@ A simple script addon to access your personal Geometry nodes presets, from the A
 
 ## Infos
 
-* Author: **Uriel Deveaud** - [Kore Teknology](https://github.com/KoreTeknology)
+* Author: **Uriel Deveaud** - [Kore Teknology](https://github.com/KoreTeknology) 
+
+<img src="https://img.shields.io/badge/CG Art-from 1995-red" /> <img src="https://img.shields.io/badge/Blender-from 2002-red" /> <img src="https://img.shields.io/badge/Python Dev-from 2005-red" /> <img src="https://img.shields.io/badge/3D Trainer-from 2008-red" /> <img src="https://img.shields.io/badge/Coding Trainer-from 2010-red" />
+
 * License: This project is released under the GPL License.
 * This work is dedicated to all Blender users ;)
