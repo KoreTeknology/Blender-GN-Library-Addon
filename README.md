@@ -11,7 +11,7 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
 
 ## Installation
 
-1. Download the [Geometry Nodes User Library Addon](https://github.com/KoreTeknology/Blender-GN-Library-Addon/blob/main/GN_Library_Addon_v140.py) (Latest Release)
+1. Download the [Geometry Nodes User Library Addon](https://github.com/KoreTeknology/Blender-GN-Library-Addon/blob/main/GN_Library_Addon_v141.py) (Latest Release)
 2. If you decide to download the full repository (.zip), unzip the Addon folder first!
 3. Go to Blender, Preferences > Addons
 4. Click on "Install" to select the python file "GN_Library_Addon_xxx.py" (xxx is the version number)
