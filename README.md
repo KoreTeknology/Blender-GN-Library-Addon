@@ -7,7 +7,7 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
 
 <img src="https://img.shields.io/badge/Blender-3.1.0-green" /> <img src="https://img.shields.io/badge/Python-3.7-blue" /> <img src="https://img.shields.io/badge/Addon-1.4.1-orange" />
 
-<img src="https://github.com/KoreTeknology/Blender-GN-Library-Addon/blob/main/media/gnlib_preview_web_131.jpg" width=100%>
+<img src="https://github.com/KoreTeknology/Blender-GN-Library-Addon/blob/main/media/gnlib_preview_web_141.jpg" width=100%>
 
 ## Installation
 
