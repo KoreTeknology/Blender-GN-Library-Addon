@@ -126,9 +126,17 @@ def gn_node_library_add(context, filepath, node_group, ungroup, report):
     for node in node_tree.nodes:
         node.select = False
 
+    # VAR nodetree types
+    nodetree_type_gn = {
+        "GeometryNodeTree": "GeometryNodeGroup",
+    }[type(node_tree).__name__]
+    
+    
     node_type_string = {
         "GeometryNodeTree": "GeometryNodeGroup",
     }[type(node_tree).__name__]
+    
+    
 
     node = node_tree.nodes.new(type=node_type_string)
     node.node_tree = node_group
@@ -215,16 +223,16 @@ class GnNodeLibraryPrefs(AddonPreferences):
         
         
         box = layout.box()
-        box.label(text="Directories of User Geometry Nodes Groups")
+        box.label(text="Directories of User Geometry Nodes Groups", icon="NODETREE")
         
         col = layout.column(align=True)
         split = col.split(factor=0.35)
         name_col = split.column()
         path_col = split.column()
         
-        row = name_col.row(align=True)  # Padding
+        row = name_col.row(align=True)
         row.label(text="Category Name")
-        row = path_col.row(align=True)  # Padding
+        row = path_col.row(align=True)
         row.label(text="Path")
         
         row = name_col.row(align=True)
@@ -249,6 +257,19 @@ class GnNodeLibraryPrefs(AddonPreferences):
         row.prop(self, "categoryname3", text="")
         row = path_col.row(align=True)
         row.prop(self, "userlib_cat3_path", text="")
+        
+        col = layout.column(align=True)
+        split = col.split(factor=0.35)
+        name_col = split.column()
+        path_col = split.column()
+        
+        row = name_col.row(align=True)
+        row.label(text="", icon="SOLO_ON")
+        row.enabled = False
+        row.prop(self, "categorynamepro1", text="")
+        row = path_col.row(align=True)
+        row.prop(self, "userlib_pro1_path", text="")
+        
                 
         row = layout.row()
         row.label(text="INFO: The name cannot be changed at this time, not implemented yet (v1.3.2)",icon="INFO")
@@ -266,47 +287,23 @@ class GnNodeLibraryPrefs(AddonPreferences):
 
         
         # BLOC project path
-        icon_2 = "TRIA_RIGHT" if not self.show_menu_list_projectpath else "TRIA_DOWN"
-        box = layout.box()
-        box.prop(self, "show_menu_list_projectpath", emboss=False, icon=icon_2)
+        #icon_2 = "TRIA_RIGHT" if not self.show_menu_list_projectpath else "TRIA_DOWN"
+        #box = layout.box()
+        #box.prop(self, "show_menu_list_projectpath", emboss=False, icon=icon_2)
         
-        if self.show_menu_list_projectpath:
-            row = box.row(align=True)
-            row.prop(self, "userlib_pro1_path")
-            row.separator()
-            subrow = row.row()
-            subrow.label(text="", icon="APPEND_BLEND")
-
-        #for i, library in enumerate(paths.asset_libraries):
-            #row = name_col.row()
-            #row.alert = not library.name
-            #row.prop(library, "name", text="")
-
-            #row = path_col.row()
+        #if self.show_menu_list_projectpath:
+            #row = box.row(align=True)
+            #row.label(text="", icon="SOLO_ON")
+            #row.prop(self, "userlib_pro1_path")
+            #row.separator()
             #subrow = row.row()
-            #subrow.alert = not library.path
-            #subrow.prop(library, "path", text="")
-
-            #row.operator("preferences.asset_library_remove", text="", icon='X', emboss=False).index = i
-
-            row = box.row()
-            row.enabled = False
-            row.alignment = 'RIGHT'
-            row.operator("preferences.asset_library_add", text="", icon='ADD', emboss=False)
+            #subrow.label(text="", icon="APPEND_BLEND")
+#
+            #row = box.row()
+            #row.enabled = False
+            #row.alignment = 'RIGHT'
+            #row.operator("preferences.asset_library_add", text="", icon='ADD', emboss=False)
         
-        #row = box.row()
-        #row.label(text="INFO",icon="INFO")
-        #row = box.row()
-        #row.label(text="Important! Paths are absolute! ",icon="LAYER_USED")
-
-
-        #BLOC info
-        #col = layout.column(align=True)
-        #colbox = col.box()
-        #colboxrow = colbox.row(align=True)
-        #colboxrow.label(text="INFO",icon="INFO")
-        #colboxrow = colbox.row()
-        #colboxrow.label(text="Important! Paths are absolute! ",icon="LAYER_USED")
 
 
 class NODE_OT_library_add(Operator):
@@ -582,12 +579,11 @@ class NODE_MT_library_add(Menu):
         dirpath3 = gn_userlib_category3_path(context)
         if dirpath3 != "":
             layout.menu(NODE_MT_ButtonsSub_cat3.bl_idname, icon="NODETREE")
-           
-        layout.separator()
-        
+                  
         # Sub-menu > Category 3
         dirpathproject1 = gn_userlib_project__path_1(context)
         if dirpathproject1 != "":
+            layout.separator()
             layout.menu(NODE_MT_ButtonsSub_pro1.bl_idname, icon="NODETREE")
 
 def add_gn_node_button(self, context):
