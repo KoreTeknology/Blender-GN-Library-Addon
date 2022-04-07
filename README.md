@@ -49,6 +49,8 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
 
 ## History
 
+> **Release 1.4.0** - [09/04/2022]: Fix UI, add icons, set custom name in preferences
+
 > **Release 1.3.2** - [08/04/2022]: Re-Draw Addon preferences, add sample files
 
 > **Release 1.3.1** - [07/04/2022]: Re-Define Project library + user libraries
