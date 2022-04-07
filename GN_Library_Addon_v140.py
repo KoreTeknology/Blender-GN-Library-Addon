@@ -189,34 +189,26 @@ class GnNodeLibraryPrefs(AddonPreferences):
     userlib_pro1_path: StringProperty(name="Project Path",subtype='DIR_PATH',)
     
     categoryname: StringProperty(name="Name",description="Category of Geometry Nodegroups",default="Generators",
-            #update=update_panel
+            #update=update_category
             )
     
     categoryname2: StringProperty(name="Name",description="Category of Geometry Nodegroups",default="Transform",
-            #update=update_panel
+            #update=update_category
             )
     
     categoryname3: StringProperty(name="Name",description="Category of Geometry Nodegroups",default="Math",
-            #update=update_panel
+            #update=update_category
             )
     
     categorynamepro1: StringProperty(name="Name",description="Category of Geometry Nodegroups",default="my Project folder...",
-            #update=update_panel
+            #update=update_category
             )
     
     # SHOW sliding menu 1
-    show_menu_list : BoolProperty(
-        name="Need more ?",
-        description="Show/Hide the Add Menu items",
-        default=False
-    )
+    show_menu_list : BoolProperty(name="Need more ?",description="Show/Hide the Add Menu items",default=False)
     
     # SHOW sliding menu 2
-    show_menu_list_projectpath : BoolProperty(
-        name="Directories of Project Nodes Groups",
-        description="Show/Hide the Add Menu items",
-        default=False
-    )
+    show_menu_list_projectpath : BoolProperty(name="Directories of Project Nodes Groups",description="Show/Hide the Add Menu items",default=False)
 
     def draw(self, context):
         layout = self.layout
@@ -236,6 +228,7 @@ class GnNodeLibraryPrefs(AddonPreferences):
         row.label(text="Path")
         
         row = name_col.row(align=True)
+        row.label(text="", icon="NODETREE")
         row.enabled = False
         row.prop(self, "categoryname", text="")
         row = path_col.row(align=True)
@@ -243,6 +236,7 @@ class GnNodeLibraryPrefs(AddonPreferences):
 
             
         row = name_col.row(align=True)
+        row.label(text="", icon="NODETREE")
         row.enabled = False
         row.prop(self, "categoryname2", text="")
         row = path_col.row(align=True)
@@ -250,6 +244,7 @@ class GnNodeLibraryPrefs(AddonPreferences):
 
             
         row = name_col.row(align=True)
+        row.label(text="", icon="NODETREE")
         row.enabled = False
         row.prop(self, "categoryname3", text="")
         row = path_col.row(align=True)
@@ -318,7 +313,7 @@ class NODE_OT_library_add(Operator):
     """Add a Node Library"""
     bl_idname = "node.library_add"
     bl_label = "Add Geometry node library"
-    bl_description = "Add archived GN"
+    bl_description = "Append Geometry Nodegroup from library"
     bl_options = {'REGISTER', 'UNDO'}
 
     filepath: StringProperty(
