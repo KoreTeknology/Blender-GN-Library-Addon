@@ -5,6 +5,13 @@ A simple script addon to access your personal Geometry nodes presets, from the A
 
 <img src="https://github.com/KoreTeknology/Blender-GN-Library-Addon/blob/main/media/gnlib_preview_1.jpg" width=100%>
 
+## Installation
+
+1. Unzip the addon when fully downloaded
+2. Go to Blender, Preferences > Addons
+3. Click on "Install" to select the python file
+4. Activate, enjoy!
+
 ## Features
 - [x] Custom user menus **ONLY in Geometry Nodes Editor** context window
 - [x] Read .blend files **from custom folder path**
