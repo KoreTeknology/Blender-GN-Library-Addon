@@ -3,6 +3,23 @@ A simple script addon to access your personal Geometry nodes presets, from the A
 
 <img src="https://img.shields.io/badge/Blender-3.1.0-green" /> <img src="https://img.shields.io/badge/Python-3.7-blue" />
 
+<img src="https://github.com/KoreTeknology/Blender-GN-Library-Addon/blob/main/media/gnlib_preview_1.jpg" width=100%>
+
+## Features
+- [x] Custom user menus **ONLY in Geometry Nodes Editor** context window
+- [x] Read .blend files **from custom folder path**
+- [x] Show **ONLY nodegroups from Geometry nodesgroups type**
+- [x] Up to **3 user categories** can be set with indexed sub-menu 
+- [x] A single **project category** is added for convenience
+- [x] **Paths settings** in addon-preferences
+
+## What´s Next?
+- [ ] Add Name setting in preferences (in progress)
+- [ ] Select icon for each category in preferences
+- [ ] more libraries?
+
+---
+
 ```python
 bl_info = {
     "name": "Geometry Node User Libraries",
@@ -16,17 +33,6 @@ bl_info = {
     "category": "Node",
 }
 ```
-
-<img src="https://github.com/KoreTeknology/Blender-GN-Library-Addon/blob/main/media/gnlib_preview_1.jpg" width=100%>
-
-## Features
-- [x] Custom user menus in Geometry Nodes Editor context window
-- [x] Read .blend files from folder path
-- [x] Extract exclusively nodegroups from Geometry nodesgroups type
-- [x] Up to 3 user categories can be set with indexed sub-menu 
-- [x] A single project category is added for convenience
-- [x] Add Path setting in preferences
-- [ ] Add Name setting in preferences (in progress)
 
 ---
 
@@ -48,9 +54,4 @@ bl_info = {
 
 * Author: **Uriel Deveaud** - [Kore Teknology](https://github.com/KoreTeknology)
 * License: This project is released under the GPL License.
-
-
-## Acknowledgments
-
 * This work is dedicated to all Blender users ;)
-* i will try to keep all types of codes as clear as possible using syntax highlighting and line referencing
