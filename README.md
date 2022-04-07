@@ -24,22 +24,6 @@ A simple script addon to access your personal Geometry nodes presets, from the A
 
 ---
 
-```python
-bl_info = {
-    "name": "Geometry Node User Libraries",
-    "description": "Geometry Nodes User Library with paths and name settings",
-    "author": "uriel Deveaud (inspired by node_presets.py)",
-    "version": (1, 3, 1),
-    "blender": (3, 0, 0),
-    "location": "Geometry Node Editor > Add > User Library",
-    "description": "Add node groups directly from the Geometry Nodes Add menu",
-    "warning": "",
-    "category": "Node",
-}
-```
-
----
-
 ## History
 
 > **Release 1.3** - [07/04/2022]: Re-Define Project library + user libraries
