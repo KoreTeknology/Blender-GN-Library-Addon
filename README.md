@@ -1,5 +1,5 @@
 # Geometry Nodes User Library Addon for Blender
-A simple script addon to access your personal Geometry nodes presets, from the Add menu.
+A simple script addon to access your personal Geometry nodes presets, from the Add menu, with categories and project paths.
 
 <img src="https://img.shields.io/badge/Blender-3.1.0-green" /> <img src="https://img.shields.io/badge/Python-3.7-blue" /> <img src="https://img.shields.io/badge/Addon-1.3.2-orange" />
 
