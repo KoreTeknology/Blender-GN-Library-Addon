@@ -22,6 +22,7 @@ A simple script addon to access your personal Geometry nodes presets, from the A
 - [x] Up to **3 user categories** can be set with indexed sub-menu 
 - [x] A single **project category** is added for convenience
 - [x] **Paths settings** in addon-preferences
+- [x] User library **structure and contents samples**
 
 ## What´s Next?
 - [ ] Add Name setting in preferences (in progress)
