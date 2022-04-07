@@ -10,9 +10,9 @@ A simple script addon to access your personal Geometry nodes presets, from the A
 1. Download the [Geometry Nodes User Library Addon](https://github.com/KoreTeknology/Blender-GN-Library-Addon/blob/main/GN_Library_Addon_v131.py)
 2. If you decide to download the full repository (.zip), unzip the Addon folder first!
 3. Go to Blender, Preferences > Addons
-4. Click on "Install" to select the python file GN_Library_Addon_rel.py
+4. Click on "Install" to select the python file "GN_Library_Addon_xxx.py"
 5. Activate the addon
-6. Select the first path in the preferences panel
+6. Select the first path to library in the preferences panel
 7. Go to the Geometry Nodes Editor, and open the Add Menu, enjoy!
 
 ## Features
