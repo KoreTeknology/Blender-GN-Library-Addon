@@ -5,13 +5,13 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
 
 > *If you are using the node-presets.py addon, you may have find out that it includes all types of nodes in only one category. The asset manager is a cool option too, but as it doesnt require an image preview or any tags, why not getting our favorite geometry node presets directly from the Geometry nodes editor itself?! ;)*
 
-<img src="https://img.shields.io/badge/Blender-3.1.0-green" /> <img src="https://img.shields.io/badge/Python-3.7-blue" /> <img src="https://img.shields.io/badge/Addon-1.4.0-orange" />
+<img src="https://img.shields.io/badge/Blender-3.1.0-green" /> <img src="https://img.shields.io/badge/Python-3.7-blue" /> <img src="https://img.shields.io/badge/Addon-1.4.1-orange" />
 
 <img src="https://github.com/KoreTeknology/Blender-GN-Library-Addon/blob/main/media/gnlib_preview_web_131.jpg" width=100%>
 
 ## Installation
 
-1. Download the [Geometry Nodes User Library Addon](https://github.com/KoreTeknology/Blender-GN-Library-Addon/blob/main/GN_Library_Addon_v140.py) (Latest Release)
+1. Download the [Geometry Nodes User Library Addon](https://github.com/KoreTeknology/Blender-GN-Library-Addon/blob/main/GN_Library_Addon_v141.py) (Latest Release)
 2. If you decide to download the full repository (.zip), unzip the Addon folder first!
 3. Go to Blender, Preferences > Addons
 4. Click on "Install" to select the python file "GN_Library_Addon_xxx.py" (xxx is the version number)
@@ -32,7 +32,8 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
 - [x] Show **ONLY nodegroups from Geometry nodesgroups type**
 - [x] Up to **3 user categories** can be set with indexed sub-menu 
 - [x] A single **project category** is added for convenience
-- [x] **Paths settings** in addon-preferences
+- [x] **Category Paths settings** in addon-preferences
+- [x] **Category Name settings** in addon-preferences
 - [x] User library **structure and contents samples**
 
 ## Settings
@@ -40,14 +41,17 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
 <img src="https://github.com/KoreTeknology/Blender-GN-Library-Addon/blob/main/media/addon_prefs_132.jpg" width=100%>
 
 ## What´s Next?
-- [ ] Add Name setting in preferences (in progress)
-- [ ] Select icon for each category in preferences
-- [ ] Append/link options
+- [ ] Add Name setting in preferences (done in previous relese)
+- [ ] Select icon for each category in preferences (?)
+- [ ] Append/link options (V)
 - [ ] more libraries?
+- [ ] more samples?
 
 ---
 
 ## History
+
+> **Release 1.4.1** - [09/04/2022]: Fix custom name update in UI
 
 > **Release 1.4.0** - [09/04/2022]: Fix UI, add icons, set custom name in preferences
 
