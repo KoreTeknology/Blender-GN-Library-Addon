@@ -3,7 +3,7 @@ A simple script addon to access your personal Geometry nodes presets, from the A
 
 ## Acknowledgments
 
-> *If you are using the node-presets.py addon, you may have find out that it includes all types of nodes in only one category. The asset manager is a cool option too, but as it doesnt require an image preview, why not getting our favorite geometry node presets directly from the editor! ;)*
+> *If you are using the node-presets.py addon, you may have find out that it includes all types of nodes in only one category. The asset manager is a cool option too, but as it doesnt require an image preview or any tags, why not getting our favorite geometry node presets directly from the Geometry nodes editor itself?! ;)*
 
 <img src="https://img.shields.io/badge/Blender-3.1.0-green" /> <img src="https://img.shields.io/badge/Python-3.7-blue" /> <img src="https://img.shields.io/badge/Addon-1.3.2-orange" />
 
@@ -65,6 +65,9 @@ A simple script addon to access your personal Geometry nodes presets, from the A
 
 ## Infos
 
-* Author: **Uriel Deveaud** - [Kore Teknology](https://github.com/KoreTeknology)
+* Author: **Uriel Deveaud** - [Kore Teknology](https://github.com/KoreTeknology) 
+
+<img src="https://img.shields.io/badge/CG Art-from 1995-red" /> <img src="https://img.shields.io/badge/Blender-from 2002-red" /> <img src="https://img.shields.io/badge/Python Dev-from 2005-red" /> <img src="https://img.shields.io/badge/3D Trainer-from 2008-red" /> <img src="https://img.shields.io/badge/Coding Trainer-from 2010-red" />
+
 * License: This project is released under the GPL License.
 * This work is dedicated to all Blender users ;)
