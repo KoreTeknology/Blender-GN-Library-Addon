@@ -38,7 +38,7 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
 
 ## Settings
 
-<img src="https://github.com/KoreTeknology/Blender-GN-Library-Addon/blob/main/media/geonode_addon_web_prefs_141.jpg" width=100%>
+<img src="https://github.com/KoreTeknology/Blender-GN-Library-Addon/blob/main/media/geonode_addon_web_prefs_131.jpg" width=100%>
 
 ## What´s Next?
 - [ ] Add Name setting in preferences (done in previous relese)
