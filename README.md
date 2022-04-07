@@ -41,9 +41,8 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
 <img src="https://github.com/KoreTeknology/Blender-GN-Library-Addon/blob/main/media/geonode_addon_web_prefs_141b.jpg" width=100%>
 
 ## What´s Next?
-- [ ] Add Name setting in preferences (done in previous relese)
-- [ ] Select icon for each category in preferences (?)
-- [ ] Append/link options (V)
+- [ ] Append/link options (Y)
+- [ ] Add infinite categories?
 - [ ] more libraries?
 - [ ] more samples?
 
