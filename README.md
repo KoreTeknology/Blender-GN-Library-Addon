@@ -35,6 +35,10 @@ A simple script addon to access your personal Geometry nodes presets, from the A
 - [x] **Paths settings** in addon-preferences
 - [x] User library **structure and contents samples**
 
+## Settings
+
+<img src="https://github.com/KoreTeknology/Blender-GN-Library-Addon/blob/main/media/addon_prefs_132.jpg" width=100%>
+
 ## What´s Next?
 - [ ] Add Name setting in preferences (in progress)
 - [ ] Select icon for each category in preferences
