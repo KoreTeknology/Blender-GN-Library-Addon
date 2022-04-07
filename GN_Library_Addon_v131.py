@@ -224,16 +224,22 @@ class NodeLibraryPrefs(AddonPreferences):
             col = box.column(align=True)
             #col.label(text="Category 1")
             col.prop(self, "userlib_cat1_path")
+            col = box.column(align=True)
+            col.enabled = False
             col.prop(self, "categoryname", text="Category 1 Name")
             col.separator()
             col = box.column(align=True)
             #col.label(text="Category 2")
             col.prop(self, "userlib_cat2_path")
+            col = box.column(align=True)
+            col.enabled = False
             col.prop(self, "categoryname2", text="Category 2 Name")
             col.separator()
             col = box.column(align=True)
             #col.label(text="Category 3")
             col.prop(self, "userlib_cat3_path")
+            col = box.column(align=True)
+            col.enabled = False
             col.prop(self, "categoryname3", text="Category 3 Name")
 
         
