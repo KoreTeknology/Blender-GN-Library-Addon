@@ -3,7 +3,7 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
 
 ## Acknowledgments
 
-> *If you are using the node-presets.py addon, you may have find out that it includes all types of nodes in only one category. The asset manager is a cool option too, but as it doesnt require an image preview or any tags, why not getting our favorite geometry node presets directly from the Geometry nodes editor itself?! ;)*
+> *If you are using the node-presets.py addon, you may have found out that it includes all types of nodes in only one single category. The asset manager is a cool option too, but as it doesnt require a parent object, an image preview or any tags, why not getting our favorite geometry node presets directly from the Geometry nodes editor itself?! ;)*
 
 <img src="https://img.shields.io/badge/Blender-3.1.0-green" /> <img src="https://img.shields.io/badge/Python-3.7-blue" /> <img src="https://img.shields.io/badge/Addon-1.4.1-orange" />
 
