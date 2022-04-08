@@ -72,7 +72,7 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
 
 * Author: **Uriel Deveaud** - [Kore Teknology](https://github.com/KoreTeknology) 
 
-<img src="https://img.shields.io/badge/CG Art-from 1995-red" /> <img src="https://img.shields.io/badge/Blender-from 2002-red" /> <img src="https://img.shields.io/badge/Python Dev-from 2005-red" /> <img src="https://img.shields.io/badge/3D Trainer-from 2008-red" /> <img src="https://img.shields.io/badge/Coding Trainer-from 2010-red" />
+<img src="https://img.shields.io/badge/CG Art-1995-red" /> <img src="https://img.shields.io/badge/3D Blender-2002-red" /> <img src="https://img.shields.io/badge/Python Dev-2005-red" /> <img src="https://img.shields.io/badge/3D Trainer-2008-red" /> <img src="https://img.shields.io/badge/Coding Trainer-2010-red" /> <img src="https://img.shields.io/badge/GE-2015-darkorange" /> <img src="https://img.shields.io/badge/VR-2017-darkorange" />
 
 * License: This project is released under the GPL License.
 * This work is dedicated to all Blender users ;)
