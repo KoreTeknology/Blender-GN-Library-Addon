@@ -45,6 +45,7 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
 - [ ] Add infinite categories?
 - [ ] more libraries?
 - [ ] more samples?
+- [ ] should this addon offer a complete libraries manager for all types of nodegroups?
 
 ---
 
