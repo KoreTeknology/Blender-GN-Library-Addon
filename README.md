@@ -52,13 +52,14 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
 - Add Compositor nodegroups in compositor nodes area
 - Add Texture nodegroups in texture nodes area
 - Add pre-made Objects from path in 3D view
+- Add Code blocks in Text Editor ([Snippets Library Addon](https://github.com/KoreTeknology/python-codes-library-addon-for-Blender))
 
-> #### Implementation Strategy
+> ### Implementation Strategy
 >
 > - Each type of user favorites will come in its own window area.
 > - Basic user libraries and Projects ones parameters (path).
 >
->  *All resources* are custom and are located in  **.blend files**.
+>  *Tutorial must be ready* for the next release  **1.5 A1**.
 
 ---
 
