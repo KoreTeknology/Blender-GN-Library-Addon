@@ -53,6 +53,13 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
 - Add Texture nodegroups in texture nodes area
 - Add pre-made Objects from path in 3D view
 
+> #### Implementation Strategy
+>
+> - Each type of user favorites will come in its own window area.
+> - Basic user libraries and Projects ones parameters (path).
+>
+>  *All resources* are custom and are located in  **.blend files**.
+
 ---
 
 ## History
