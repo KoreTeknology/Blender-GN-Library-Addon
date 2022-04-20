@@ -67,6 +67,9 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
   </li>
 </ul>
 
+```diff
++ NOTE: Project needs to include one main folderpath, and maybe a temp folder?! 
+```
 
 ## **Proposal for Release 1.5.0 - 06/22:**
 
@@ -82,7 +85,9 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
 
 - **Add Code Snippets** in Text Editor (merged with my other script:([Snippets Library Addon](https://github.com/KoreTeknology/python-codes-library-addon-for-Blender))
 
-
+```diff
+- NOTE: Add tutorials on workflows?! 
+```
 
 ## **Proposal for Release 1.6.0 - 07/22:**
 
