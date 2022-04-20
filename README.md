@@ -47,7 +47,7 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
 - [x] more samples?
 
 
-> **Proposal for Release 1.5 - 05/22:**
+## **Proposal for Release 1.4.5 - 05/22:**
 
 <ul>
   <li><b>Update Addon settings</b>
@@ -65,6 +65,12 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
       <li>Code Cleaning/comments</li>
     </ul>
   </li>
+</ul>
+
+
+## **Proposal for Release 1.5.0 - 06/22:**
+
+<ul>
   <li><b>Add User Libraries from path</b> (ONLY in 3D View area)
     <ul>
       <li>pre-made Scenes</li>
@@ -78,7 +84,7 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
 
 
 
-> **Proposal for Release 1.6 - 07/22:**
+## **Proposal for Release 1.6.0 - 07/22:**
 
 <ul>
   <li><b>Add Shader nodegroups</b> (ONLY in Shading nodes area)
