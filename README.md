@@ -52,9 +52,9 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
   <li><b>Update Addon settings</b>
     <ul>
       <li>add INIT file for good practices</li>
-      <li>GUI design: Add Link button for each path</li>
+      <li>GUI design: Add "Link" (/Append) button for each path</li>
       <li>General User Library Paths (3/type)</li>
-      <li>Structural design: Project independant setup (2)</li>
+      <li>Structural design change: Project independant setup (2)</li>
       <li>Final Samples Library</li>
     </ul>
   </li>
@@ -63,21 +63,11 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
       <li>Code Cleaning/comments</li>
     </ul>
   </li>
-  <li><b>Add pre-made Scenes</b> from path (ONLY in 3D View area)
+  <li><b>Add from path</b> (ONLY in 3D View area)
     <ul>
-      <li>All/Per Types</li>
-      <li>Samples</li>
-    </ul>
-  </li>
-  <li><b>Add Images as Plane (References)</b> (ONLY in 3D View area)
-    <ul>
-      <li>Map Presets</li>
-    </ul>
-  </li>
-  <li><b>Add pre-made Objects</b> from path (ONLY in 3D View area)
-    <ul>
-      <li>All/Per Types</li>
-      <li>Recycling</li>
+      <li>pre-made Scenes</li>
+      <li>Images as Plane (References)</li>
+      <li>pre-made Objects(/per typeof: mesh, Curve,...?)</li>
     </ul>
   </li>
 </ul>
