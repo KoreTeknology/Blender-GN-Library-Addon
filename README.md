@@ -46,7 +46,8 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
 - [x] more libraries? 3+1? or Projects Path must be re-designed?
 - [x] more samples?
 
-**Proposal for Release 1.5 - 05/22:** This addon can be extended to customize any "Add" menus, we have several types of them:
+
+> **Proposal for Release 1.5 - 05/22:**
 
 <ul>
   <li><b>Update Addon settings</b>
@@ -56,6 +57,7 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
       <li>General User Library Paths (3/type)</li>
       <li>Structural design change: Project independant setup (2)</li>
       <li>Final Samples Library</li>
+      <li>Add Panel(N) in 3D View for Project path and buttons(Import Presets)</li>
     </ul>
   </li>
   <li><b>Update Geometry nodegroups</b>
@@ -63,7 +65,7 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
       <li>Code Cleaning/comments</li>
     </ul>
   </li>
-  <li><b>Add from path</b> (ONLY in 3D View area)
+  <li><b>Add User Libraries from path</b> (ONLY in 3D View area)
     <ul>
       <li>pre-made Scenes</li>
       <li>Images as Plane (References)</li>
@@ -75,7 +77,8 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
 - **Add Code Snippets** in Text Editor (merged with my other script:([Snippets Library Addon](https://github.com/KoreTeknology/python-codes-library-addon-for-Blender))
 
 
-**Proposal for Release 1.6 - 07/22:** This addon can be extended to customize any "Add" menus, we have several types of them:
+
+> **Proposal for Release 1.6 - 07/22:**
 
 <ul>
   <li><b>Add Shader nodegroups</b> (ONLY in Shading nodes area)
