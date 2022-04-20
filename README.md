@@ -43,33 +43,38 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
 ## What´s Next?
 - [x] Append/link options (Y)
 - [ ] Add infinite categories?
-- [x] more libraries? 3+1 is relevant
+- [x] more libraries? 3+1? or Projects Path must be re-designed?
 - [x] more samples?
 
 **Proposal for Release 1.5 - 05/22:** This addon can be extended to customize any "Add" menus, we have several types of them:
 
 <ul>
-  <li><b>Update Geometry nodegroups</b> (this one)
+  <li><b>Update Addon settings</b>
     <ul>
-      <li>Code Refactoring</li>
       <li>add INIT file for good practices</li>
+      <li>GUI design: Add Link button for each path</li>
+      <li>General User Library Paths (3/type)</li>
+      <li>Structural design: Project independant setup (2)</li>
       <li>Final Samples Library</li>
     </ul>
   </li>
-  <li><b>Add pre-made Scenes</b> from path
+  <li><b>Update Geometry nodegroups</b>
+    <ul>
+      <li>Code Cleaning/comments</li>
+    </ul>
+  </li>
+  <li><b>Add pre-made Scenes</b> from path (ONLY in 3D View area)
     <ul>
       <li>All/Per Types</li>
       <li>Samples</li>
     </ul>
   </li>
-  <li><b>Add Shader nodegroups</b> (ONLY in Shading nodes area)
+  <li><b>Add Images as Plane (References)</b> (ONLY in 3D View area)
     <ul>
-      <li>Basic Materials</li>
-      <li>Advanced Materials</li>
-      <li>User Templates</li>
+      <li>Map Presets</li>
     </ul>
   </li>
-  <li><b>Add pre-made Objects</b> from path in 3D view
+  <li><b>Add pre-made Objects</b> from path (ONLY in 3D View area)
     <ul>
       <li>All/Per Types</li>
       <li>Recycling</li>
@@ -83,6 +88,13 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
 **Proposal for Release 1.6 - 07/22:** This addon can be extended to customize any "Add" menus, we have several types of them:
 
 <ul>
+  <li><b>Add Shader nodegroups</b> (ONLY in Shading nodes area)
+    <ul>
+      <li>Basic Materials</li>
+      <li>Advanced Materials</li>
+      <li>User Templates</li>
+    </ul>
+  </li>
   <li><b>Add Compositor nodegroups</b> (ONLY in compositor nodes area)
     <ul>
       <li>Pre-made filters</li>
