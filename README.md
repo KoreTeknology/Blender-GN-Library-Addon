@@ -47,12 +47,44 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
 - [x] more samples?
 
 **Proposal for Release 1.5 - 05/22:** This addon can be extended to customize any "Add" menus, we have several types of them:
-- Add Geometry nodegroups (this one)
-- Add Shader nodegroups in Shading nodes area
-- Add Compositor nodegroups in compositor nodes area
-- Add Texture nodegroups in texture nodes area
-- Add pre-made Objects from path in 3D view
-- Add Code blocks in Text Editor ([Snippets Library Addon](https://github.com/KoreTeknology/python-codes-library-addon-for-Blender))
+
+<ul>
+  <li><b>Update Geometry nodegroups</b> (this one)
+    <ul>
+      <li>Code Refactoring</li>
+      <li>add INIT file for good practices</li>
+      <li>Final Samples Library</li>
+    </ul>
+  </li>
+  <li><b>Add Shader nodegroups</b> (ONLY in Shading nodes area)
+    <ul>
+      <li>Basic Materials</li>
+      <li>Advanced Materials</li>
+      <li>User Templates</li>
+    </ul>
+  </li>
+  <li><b>Add Compositor nodegroups</b> (ONLY in compositor nodes area)
+    <ul>
+      <li>Pre-made filters</li>
+      <li>Pre-configured Ouputs</li>
+      <li>Project Templates</li>
+    </ul>
+  </li>
+  <li><b>Add Texture nodegroups</b> (Only in texture nodes area)
+    <ul>
+      <li>User Favorite Images</li>
+      <li>Color Correction Presets</li>
+    </ul>
+  </li>
+  <li><b>Add pre-made Objects</b> from path in 3D view
+    <ul>
+      <li>All/Per Types</li>
+      <li>Recycling</li>
+    </ul>
+  </li>
+</ul>
+
+- **Add Code Snippets** in Text Editor (merged with my other script:([Snippets Library Addon](https://github.com/KoreTeknology/python-codes-library-addon-for-Blender))
 
 > ### Implementation Strategy
 >
@@ -60,6 +92,9 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
 > - Basic user libraries and Projects ones parameters (path).
 >
 >  *Tutorial must be ready* for the next release  **1.5 A1**.
+
+
+
 
 ---
 
