@@ -41,11 +41,17 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
 <img src="https://github.com/KoreTeknology/Blender-GN-Library-Addon/blob/main/media/geonode_addon_web_prefs_141b.jpg" width=100%>
 
 ## What´s Next?
-- [ ] Append/link options (Y)
+- [x] Append/link options (Y)
 - [ ] Add infinite categories?
-- [ ] more libraries?
-- [ ] more samples?
-- [ ] should this addon offer a complete libraries manager for all types of nodegroups?
+- [x] more libraries? 3+1 is relevant
+- [x] more samples?
+
+**Proposal for Release 1.5 - 05/22:** This addon can be extended to customize any "Add" menus, we have several types of them:
+- Add Geometry nodegroups (this one)
+- Add Shader nodegroups in Shading nodes area
+- Add Compositor nodegroups in compositor nodes area
+- Add Texture nodegroups in texture nodes area
+- Add pre-made Objects from path in 3D view
 
 ---
 
