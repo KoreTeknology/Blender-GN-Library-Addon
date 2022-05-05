@@ -42,6 +42,7 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
 
 ## What´s Next?
 - [x] Append/link options (Y)
+- [x] User´s Custom icons, small selection of existing related themed icons (Y)
 - [ ] Add infinite categories?
 - [x] more libraries? 3+1? or Projects Path must be re-designed?
 - [x] more samples?
@@ -53,6 +54,7 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
   <li><b>Update Addon settings</b>
     <ul>
       <li>add INIT file for good practices</li>
+      <li>add optional icon selection for each favorite´s folder</li>
       <li>GUI design: Add "Link" (/Append) button for each path</li>
       <li>General User Library Paths (3/type)</li>
       <li>Structural design change: Project independant setup (2)</li>
