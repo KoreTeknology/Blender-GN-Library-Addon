@@ -70,6 +70,11 @@ Geometry Nodegroups samples are your primary collection for personal learning pu
 <td align="left"  valign="top">Crete a cylinder type mesh with parametric properties</td>
  <td align="left">uriel Deveaud</td>
 </tr>
+ <tr>
+ <td  valign="top"><a href="">Dual Grid Generator</a> <sub>v0.2</sub></td>
+<td align="left"  valign="top">Crete a double type mesh with parametric properties</td>
+ <td align="left">uriel Deveaud</td>
+</tr>
 <table>
 
 
