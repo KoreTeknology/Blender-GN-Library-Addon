@@ -51,7 +51,7 @@ Geometry Nodegroups samples are your primary collection for personal learning pu
  
 <table>
 <tr>
-<th align="left", width="240"File Name</th>
+<th align="left", width="240">File Name</th>
 <th align="left", width="542">Features</th>
 <th align="left", width="132">Authors</th>
 </tr>
