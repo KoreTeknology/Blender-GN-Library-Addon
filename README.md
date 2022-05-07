@@ -40,6 +40,38 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
 
 <img src="https://github.com/KoreTeknology/Blender-GN-Library-Addon/blob/main/media/geonode_addon_web_prefs_141b.jpg" width=100%>
 
+
+## Samples
+
+- GENERATORS
+- TRANSFORMER
+- MATH
+ 
+<table>
+<tr>
+<th align="left", width="240"File Name</th>
+<th align="left", width="542">Features</th>
+<th align="left", width="132">Authors</th>
+</tr>
+<tr>
+ <td  valign="top"><a href="">Capsules+ Generator</a> <sub>v1.2</sub></td>
+<td align="left"  valign="top">Crete a capsule type mesh with parametric properties</td>
+ <td align="left">Higgsas</td>
+</tr>
+<tr>
+ <td  valign="top"><a href="">Cubes+ Generator</a> <sub>v0.1</sub></td>
+<td align="left"  valign="top">Crete a cube type mesh with parametric properties</td>
+ <td align="left">uriel Deveaud</td>
+</tr>
+<tr>
+ <td  valign="top"><a href="">Cylinders+ Generator</a> <sub>v0.2</sub></td>
+<td align="left"  valign="top">Crete a cylinder type mesh with parametric properties</td>
+ <td align="left">uriel Deveaud</td>
+</tr>
+<table>
+
+
+
 ## What´s Next?
 - [x] Append/link options (Y)
 - [x] User´s Custom icons, small selection of existing related themed icons (Y)
