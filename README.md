@@ -43,9 +43,11 @@ A simple script addon for Blender 3.1+ to access your **personal Geometry nodes 
 
 ## Samples
 
-- GENERATORS
-- TRANSFORMER
-- MATH
+Geometry Nodegroups samples are your primary collection for personal learning purpose. You will find here different types of nodegroups, categorized in 3 types. They are made by several artists. You can add your own .blend files containing your own nodegroups in the folders, OR using the addon settings, change the path to your already made libraries. These are the 3 types of geometry nodegroups, included by default:
+
+- GENERATORS: New commonshapes, including mesh, surves,etc...
+- TRANSFORMER: Convert your mesh into something else...
+- MATH: Common complex operations
  
 <table>
 <tr>
